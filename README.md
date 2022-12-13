@@ -24,15 +24,18 @@ pip install -r requirements.txt
 
 * 合成盲水印图
 
-    # python bwmforpy3.py encode 无水印原图.png 水印图.png 有盲水印的图.png
-    python bwmforpy3.py encode hui.png wm.png hui_with_wm.png
-
+```bash
+# python bwmforpy3.py encode 无水印原图.png 水印图.png 有盲水印的图.png
+python bwmforpy3.py encode hui.png wm.png hui_with_wm.png
+```
 
 
 * 提取图中的盲水印 (需要原图)
 
-    # python bwmforpy3.py decode 无水印原图.png 有盲水印的图.png 水印图.png
-    python bwmforpy3.py decode hui.png hui_with_wm.png wm_from_hui.png
+```bash
+# python bwmforpy3.py decode 无水印原图.png 有盲水印的图.png 水印图.png
+python bwmforpy3.py decode hui.png hui_with_wm.png wm_from_hui.png
+```
 
 
 ### Usage
